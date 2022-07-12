@@ -1,0 +1,28 @@
+.notfound{
+    width: 100%;
+    height: calc(100vh - 65px);     /* 100vh = 100% view high / 65px = tamanho do header */
+    display: flex;                  /*Centraliza os components */
+    margin-top: 100px;          
+/*  justify-content: center;        Faz alinhamento vertical */
+    align-items: center;            /*Faz alinhamenot horizontal */
+    flex-direction: column;         /*Disponibiliza os ítems em colunas */
+    
+}
+
+.notfound h1{                       /*Referente apenas ao h1 do notfound (404) */
+    font-size: 100px;               /*Tamanho da fonte */
+    font-weight: bold;              /*Fonte em negrito*/
+}
+
+.notfound h2{
+    font-style: italic;             /*Fonte em itálico*/
+}
+
+.notfound a{
+    text-decoration: none;          /*Retira todos os efeitos da fonte*/
+    background-color: #09AD5D;    /*Adiciona uma cor de fundo*/
+    color: black;                 /*Cor da fonte*/
+    font-weight: bold;              /*Fonte em negrito*/
+    padding: 10px;                  /*Espaçamento interno do background*/
+    border-radius: 10px;            /*Chanfro do background*/
+}

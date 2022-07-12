@@ -1,0 +1,57 @@
+.lista-filmes{
+    max-width: 500px;                   /*Tamanho máximo suportado*/
+    margin: 15px auto;                  /*Márgem - tamanho, automática*/
+}
+
+.loading{
+    display: flex;                      /*Centraliza os componentes*/
+    justify-content: center;            /*Centraliza horizontalmente*/
+    align-items: left;                  /*Centraliza verticalmente*/
+    margin-top: 15px;                   /*Adiciona uma margem ao topo do elemento*/
+    font-weight: bold;                  /*Fonte em negrito*/
+}
+
+.lista-filmes article{
+    width: 100%;                        /*Ajusta a largura*/
+    background-color: #FFD9D4;        /*Determina cor de fundo*/
+    padding: 20px;                      /*Determina o tamanho interno das bordas*/
+    display: block;                     /*Determina um elemento como bloco (toma toda a linha)*/
+}
+
+.lista-filmes strong{
+    width: 900px;                       /*Largura máximo suportado*/
+    max-width: 100%;                    /*Largura máximo suportado*/
+    max-height: 300px;                  /*Altura máxima suportada*/
+    text-align: center;                 /*Alinhamento de texto*/
+    font-size: 25px;                    /*Tamanho da fonte*/
+    display: block;                     /*Determina o elemento como bloco*/
+    border-top-left-radius: 10px;       /*Chanfro da borda esquerda superior*/
+    border-top-right-radius: 10px;      /*Chanfro da borda direita superior*/
+}
+.lista-filmes img{
+    width: auto;                        /*Largura automática*/
+    height: auto;                       /*Altura automática*/
+    max-width: 100%;                    /*Largura máxima suportada*/
+    max-height: 100%;                   /*Altura máxima suportada*/
+    object-fit: contain;                /*Faz com que o elemento seja escalonado para manter suas proporções enquanto preenche seu espaço designado*/
+    display: block;                     /*Determina o elemento como bloco*/
+}
+
+.lista-filmes a{
+    display: flex;                      /*Dispõe o elemento de maneira flex(?)*/
+    align-items: center;                /*Alinha os ítens ao centro da página*/
+    justify-content: center;            /*Justifica todo o conteúdo ao centro dos containers*/
+    padding: 10px 0;                    /*Adiciona bordas de 10px em cima, e 0 aos lados*/
+    font-size: 20px;                    /*Tamanho da fonte*/
+    font-weight: bold;                  /*Tipo da fonte*/
+    color: black;                     /*Cor da fonte*/
+    background-color: #09AD5D;        /*Cor do plano de fundo*/
+    text-decoration: none;              /*Remove formatações do texto*/
+    border-bottom-left-radius: 10px;    /*Chanfro da borda no canto inferior esquerdo*/
+    border-bottom-right-radius: 10px;   /*Chanfro da borda no canto inferior direito*/
+}
+
+.lista-filmes a:hover{                  /*Determina o que acontece com o botão quando o mouse passa por cima*/
+    background-color: #3EFA9E;        /*Cor do plano de fundo*/
+    transition: all 0.5s;               /*Tempo de transição*/
+}

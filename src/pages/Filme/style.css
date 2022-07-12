@@ -1,0 +1,83 @@
+.filme-info{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 0 10px;
+}
+
+.filme-info h1{
+    width: 900px;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    background-color: #FFD9D4;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.filme-info img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.filme-info h3{
+    padding: 10px 10px;
+    background-color: #09AD5D;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.filme-info span{
+    display: flex;
+    padding: 10px 10px;
+    font: 15px;
+    background-color: #3EFA9E;
+}
+
+.filme-info strong{
+    display: flex;
+    padding: 15px 10px;
+    font: 15px;
+    background-color: #3EFA9E;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.area-buttons button{
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 25px;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    cursor: pointer;
+    background-color:#09AD5D;
+    border-radius: 10px;
+}
+
+.area-buttons a{
+    text-decoration: none;
+    color: black;
+    background-color: #09AD5D;
+}
+
+.area-buttons button:hover{
+    background-color: #3EFA9E;
+    transition: all 0.5s;
+}
+
+.area-buttons a:hover{
+    background-color: #3EFA9E;
+    transition: all 0.5s;
+}
